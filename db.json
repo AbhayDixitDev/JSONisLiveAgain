@@ -1,9 +1,109 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+"Product": [
+{
+  "id": "2756",
+  "product_name": "Mens Air Winflo 9 Running Shoes 3.9 out of 5 stars",
+  "product_price": "5995",
+  "product_image": "https://m.media-amazon.com/images/I/61ODLGHuUML._AC_UL480_FMwebp_QL65_.jpg",
+  "product_brand": "Nike",
+  "product_review": "Comfortable",
+  "product_rating": "4"
+},
+{
+  "id": "09f5",
+  "product_name": "Mens Full Force LoRunning Shoe",
+  "product_price": "5097",
+  "product_image": "https://m.media-amazon.com/images/I/71xlzzUl6aL._AC_UL480_FMwebp_QL65_.jpg",
+  "product_brand": "Nike",
+  "product_review": "Excellent",
+  "product_rating": "3.5"
+},
+{
+  "id": "f09f",
+  "product_name": "Mens Flex Experience Rn 12Flex Experience Rn 12",
+  "product_price": "3652",
+  "product_image": "https://m.media-amazon.com/images/I/81drd1xq72L._AC_UL480_FMwebp_QL65_.jpg",
+  "product_brand": "Nike",
+  "product_review": "Budget",
+  "product_rating": "4"
+},
+{
+  "id": "a960",
+  "product_name": "Mens Air Winflo 9 Running Shoes",
+  "product_price": "5995",
+  "product_image": "https://m.media-amazon.com/images/I/61ODLGHuUML._AC_UL480_FMwebp_QL65_.jpg",
+  "product_brand": "Nike",
+  "product_review": "Excellent",
+  "product_rating": "4"
+},
+{
+  "id": "3c00",
+  "product_name": "Mens Air Winflo 9 Running Shoes",
+  "product_price": "5995",
+  "product_image": "https://m.media-amazon.com/images/I/61ODLGHuUML._AC_UL480_FMwebp_QL65_.jpg",
+  "product_brand": "Nike",
+  "product_review": "Excellent",
+  "product_rating": "4"
+},
+{
+  "id": "da9d",
+  "product_name": "Mens Air Winflo 9 Running Shoes",
+  "product_price": "5995",
+  "product_image": "https://m.media-amazon.com/images/I/61ODLGHuUML._AC_UL480_FMwebp_QL65_.jpg",
+  "product_brand": "Nike",
+  "product_review": "Excellent",
+  "product_rating": "4"
+},
+{
+  "id": "2652",
+  "product_name": "Mens Air Winflo 9 Running Shoes",
+  "product_price": "5995",
+  "product_image": "https://m.media-amazon.com/images/I/61ODLGHuUML._AC_UL480_FMwebp_QL65_.jpg",
+  "product_brand": "Nike",
+  "product_review": "Excellent",
+  "product_rating": "4"
+},
+{
+  "id": "ed35",
+  "product_name": "Mens Air Winflo 9 Running Shoes",
+  "product_price": "5995",
+  "product_image": "https://m.media-amazon.com/images/I/61ODLGHuUML._AC_UL480_FMwebp_QL65_.jpg",
+  "product_brand": "Nike",
+  "product_review": "Excellent",
+  "product_rating": "4"
+}
+],
+"Registration": [
+{
+  "id": "2310",
+  "name": "Abhay Dixit",
+  "email": "Shivamdixit1st@gmail.com",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmn5PuLC91pyT6UWWiddPJYp1fMKeKTxUS4A&s",
+  "mobile": "7017709865",
+  "github": "https://github.com/AbhayDixitDev",
+  "twitter": "https://x.com/Abhaydixitji",
+  "linkedin": "https://www.linkedin.com/in/abhaydixitdev",
+  "facebook": "https://www.facebook.com/Abhaydixitji",
+  "password": "1234",
+  "cpassword": "1234"
+},
+{
+  "id": "d511",
+  "name": "",
+  "email": "",
+  "img": "",
+  "mobile": "",
+  "password": "",
+  "cpassword": ""
+},
+{
+  "id": "8139",
+  "name": "",
+  "email": "",
+  "img": "",
+  "mobile": "",
+  "password": "",
+  "cpassword": ""
+}
+]
 }
