@@ -11,7 +11,7 @@
       "main": true
     }
   },
-  "includeFiles": "db.json", // Move includeFiles to the root level
+  "includeFiles": "db.json",
   "builds": [
     {
       "src": "./src",
