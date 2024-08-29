@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "functions": {
     "api/server.js": {
       "memory": 1024,
@@ -9,12 +8,13 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "api/server.js"
     }
   ],
-  "git": {
+"git": {
     "deploymentEnabled": {
       "main": true
     }
   }
 }
+
