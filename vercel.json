@@ -1,9 +1,9 @@
 {
- "version": 2,
+  "version": 2,
   "functions": {
     "api/server.js": {
       "memory": 1024,
-      "includeFiles": "db.json"
+      "includeFiles": ["db.json"] // Note the array syntax
     }
   },
   "rewrites": [
@@ -16,16 +16,5 @@
     "deploymentEnabled": {
       "main": true
     }
-  },
-  "builds": [
-    {
-      "src": "./src",
-      "use": "@vercel/static-build",
-      "config": {
-        "github": {
-          "autoJobCancellation": true
-        }
-      }
-    }
-  ]
+  }
 }
