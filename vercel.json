@@ -9,19 +9,14 @@
     {
       "source": "/(.*)",
       "destination": "api/server.js"
-      "src": "./src",
-      "use": "@vercel/static-build",
-      "config": {
-        "github": {
-          "autoJobCancellation": true
-        }
-      }
     }
   ],
-"git": {
+  "git": {
     "deploymentEnabled": {
       "main": true
+    },
+    "github": {
+      "autoJobCancellation": true
     }
   }
 }
-
