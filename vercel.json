@@ -20,7 +20,7 @@
           "autoJobCancellation": true
         }
       },
-      "includeFiles": "db.json" // Add this line
+      "includeFiles": "db.json"
     }
   ]
 }
