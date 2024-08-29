@@ -1,0 +1,1 @@
+name: Versel Deploymenton:  push:    branches:      - mainjobs:  deploy:    runs-on: ubuntu-latest    steps:      - name: Checkout code        uses: actions/checkout@v2      - name: Deploy to GitHub        uses: versel/deploy@v1        env:          VERSEL_TOKEN: ${{ secrets.VERSEL_TOKEN }}          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
