@@ -9,15 +9,6 @@
     {
       "source": "/(.*)",
       "destination": "api/server.js"
-    }
-  ],
-"git": {
-    "deploymentEnabled": {
-      "main": true
-    }
-  },
-"builds": [
-    {
       "src": "./src",
       "use": "@vercel/static-build",
       "config": {
@@ -26,6 +17,11 @@
         }
       }
     }
-]
+  ],
+"git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
 }
 
