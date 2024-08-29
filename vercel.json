@@ -15,6 +15,17 @@
     "deploymentEnabled": {
       "main": true
     }
-  }
+  },
+"builds": [
+    {
+      "src": "./src",
+      "use": "@vercel/static-build",
+      "config": {
+        "github": {
+          "autoJobCancellation": true
+        }
+      }
+    }
+]
 }
 
