@@ -10,5 +10,13 @@
       "source": "/(.*)",
       "destination": "api/server.js"
     }
-  ]
+  ],
+{
+  "version": 2,
+  "git": {
+    "deploymentEnabled": {
+      "main": false
+    }
+  }
+}
 }
