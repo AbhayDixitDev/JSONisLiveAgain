@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Deploy JSON Server to Vercel",
   "main": "api/server.js",
+  "type": "module", // Add this line
   "scripts": {
     "start": "node api/server.js"
   },
