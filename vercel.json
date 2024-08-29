@@ -16,7 +16,7 @@
       "main": true
     },
     "github": {
-      "autoJobCancellation": true
+      "autoJobCancellation": false
     }
   }
 }
