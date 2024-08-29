@@ -1,7 +1,7 @@
 // See https://github.com/typicode/json-server#module
-const jsonServer = require('json-server')
-const fs = require('fs')
-const path = require('path')
+import { create, router as _router, defaults, rewriter } from 'json-server'
+import { readFileSync } from 'fs'
+import { join } from 'path'
 
 // ...
 
